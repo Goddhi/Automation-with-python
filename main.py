@@ -56,7 +56,7 @@ for product_row in range(2, product_list.max_row + 1): ## The 2 gets the scond r
         product_sunder_10_inv[int(product_num)] = int(inventory)
     
 
-# Ex4 : Write to spreadsheet : Calculate and write inventory value for each product into spreadsheet
+# Ex4 : Write to spreadsheet : Calculate and write inventory value for each product into a new  spreadsheet file
 #    add value for total inventory price
     inventory_price.value = inventory * price ## creating a new value for the 5th column and getting the value
 print(product_per_supplier)   ##  printing out the companies name(key) and value
